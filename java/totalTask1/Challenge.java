@@ -47,7 +47,7 @@ abstract class Book
 	
 	public String toString()
 	{
-		return title + " "+ price;
+		 return "Title-" +title   +" Cost-$" + price;
 	}
 }
 class Fiction extends Book

@@ -28,7 +28,7 @@ public class Encript {
 		
 		for(iterator=0;iterator<string.length();iterator++)
 		{ 
-			if((arr[iterator]>'T'&&arr[iterator]<='Z')||(arr[iterator]>'t'&&arr[iterator]<='z'))
+			if((arr[iterator]>='V'&&arr[iterator]<='Z')||(arr[iterator]>='u'&&arr[iterator]<='z'))
 			{
 				duparr[iterator]=(char)(arr[iterator]+(key_to_encrypt-26)); 
 			}

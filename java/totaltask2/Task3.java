@@ -98,7 +98,8 @@ public static void main(String args[])
 		 } 
 	 }
 	 //Delete the student with a given id. (Scan id of student)
-
+	 System.out.println("enter id to delete:" );
+	 id=ref.nextInt();
 	 for(int i=0;i<student.length;i++)
 	 {
 		 if(id==student[i].id)

@@ -1,0 +1,10 @@
+var test = true;
+console.log("boolean: " + test);
+var num = 8;
+console.log("number : " + num);
+var str = "saikumar";
+console.log("string : " + str);
+var arr = [5, 6, 3];
+console.log("number array: " + arr);
+var arr2 = ["sai", "kumar", "puli"];
+console.log("string array: " + arr2);
